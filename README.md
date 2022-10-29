@@ -4,12 +4,12 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  PROJETO GATSBY - INTRA-CAEFE CORPORATE
 </h1>
 
-## 🚀 Quick start
+## 🚀 Start
 
-1.  **Create a Gatsby site.**
+1.  **Instalação e configuração de módulos**
 
     Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
 
