@@ -1,8 +1,8 @@
 {
-  "name": "my-gatsby-site",
+  "name": "intra-caefe",
   "version": "1.0.0",
   "private": true,
-  "description": "my-gatsby-site",
+  "description": "Intra CAEFE corporate",
   "keywords": [
     "gatsby"
   ],
@@ -28,6 +28,6 @@
     "typescript": "^4.8.3"
   },
   "main": "index.js",
-  "author": "",
+  "author": "Douglas Souza",
   "license": "ISC"
 }
