@@ -14,7 +14,7 @@ export default function Home() {
     <Layout>
       <header>
         <ProfileHeader
-        
+          avatar="https://eduardovelho.com/images/egvelho.jpg"
           bio="Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg"
           link="https://google.com"
           name="Douglas Souza"
