@@ -1,6 +1,7 @@
 import * as React from "react"
 import {Layout} from "../layout/Layout"
 import { Feed } from "../components/Feed";
+import { ProfileHeader } from "../components/ProfileHeader";
 
 const items = Array.from({ length: 30 }, (_, index) => ({
   title: `Title ${index}`,
@@ -17,8 +18,7 @@ export default function Home() {
           bio="Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg Lorem ipsufgndsgiof didfgmjidfogmdfg"
           link="https://google.com"
           name="Douglas Souza"
-          publishCount={90}
-        
+          publishCount={90} username={""} avatar={""} role={""}        
         />
       </header>
       <div className="feed-container">
