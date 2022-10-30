@@ -17,8 +17,8 @@ export default function Post() {
     <Layout>
       <div className="post-page">
         <PostView
-          authorAvatar="https://eduardovelho.com/images/egvelho.jpg"
-          authorUsername="egvelho"
+          authorAvatar=""
+          authorUsername="douglas85rj"
           content={content}
           image="https://loremflickr.com/1000/1000"
           publishDate={date}
