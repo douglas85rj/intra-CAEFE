@@ -2,25 +2,25 @@ import React from "react";
 import {caefeLogo} from "../components/caefeLogo";
 import {TopBarItems} from "../components/TopBarItems";
 
-const topbarHeight = "64px";
+const topbarHeight = "70px";
 
 export function TopBar() {
   return (
     <>
-      <div className="app-bar">
-        <div className="app-bar-content">
+      <div className="top-bar">
+        <div className="top-bar-content">
           <div className="row caefe-logo">
             <a href="/">
               <caefeLogo height= "32px" />
             </a>
           </div>
         
-          <div className="row app-bar-items">
+          <div className="row top-bar-items">
             <TopBarItems />
           </div>
         </div>
         <style jsx>{`
-          .app-bar {
+          .top-bar {
             background-color: #fff;
             border-bottom: 1px solid #ccc;
             position: fixed;
@@ -30,7 +30,7 @@ export function TopBar() {
             padding: 0 8px;
             box-sizing: border-box;
           }
-          .app-bar-content {
+          .top-bar-content {
             margin: auto;
             max-width: 960px;
             display: flex;

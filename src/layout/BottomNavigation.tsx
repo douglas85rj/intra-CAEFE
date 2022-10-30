@@ -1,7 +1,7 @@
 
 import React from "react";
 import { GrFavorite, GrHomeRounded } from "react-icons/gr";
-
+import { Avatar } from "../components/Avatar";
 const bottomNavigationHeight = "48px";
 
 export function BottomNavigation() {
