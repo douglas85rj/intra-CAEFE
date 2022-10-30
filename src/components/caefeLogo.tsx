@@ -2,7 +2,7 @@ import React from "react";
 
 export type caefeLogoProps ={
 
-    width?: string |number;
+    width?: string | number;
     height?: string | number;
 };
 
