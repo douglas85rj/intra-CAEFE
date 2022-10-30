@@ -2,19 +2,23 @@ import React from "react";
 import {caefeLogo} from "../components/caefeLogo";
 import {TopBarItems} from "../components/TopBarItems";
 
-const appbarHeight = "64px";
+const topbarHeight = "64px";
 
 export function TopBar() {
   return (
     <>
-      <div className="top-bar">
-        <div className="top-bar-content">
+      <div className="app-bar">
+        <div className="app-bar-content">
           <div className="row instagram-logo">
             <a href="/">
-              <caefeLogo height="32px" />
+              <caefeLogo height= "32px" />
             </a>
           </div>
-         
+        
+          <div className="row app-bar-items">
+            <TopBarItems />
+          </div>
+        </div>
         <style jsx>{`
           .app-bar {
             background-color: #fff;
@@ -31,10 +35,10 @@ export function TopBar() {
             max-width: 960px;
             display: flex;
             align-items: center;
-            height: ${appbarHeight};
+            height: ${topbarHeight};
           }
           :global(body) {
-            padding-top: ${appbarHeight};
+            padding-top: ${topbarHeight};
           }
           @media (max-width: 600px) {
             .app-bar-items {
