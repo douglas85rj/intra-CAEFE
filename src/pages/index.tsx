@@ -3,7 +3,7 @@ import {Layout} from "../layout/Layout"
 import { Feed } from "../components/Feed";
 import { ProfileHeader } from "../components/ProfileHeader";
 
-const items = Array.from({ length: 30 }, (_, index) => ({
+const items = Array.from({ length: 20 }, (_, index) => ({
   title: `Title ${index}`,
   link: `https://google.com/${index}`,
   image: "https://loremflickr.com/400/400",

@@ -9,7 +9,7 @@ export function TopBar() {
     <>
       <div className="app-bar">
         <div className="app-bar-content">
-          <div className="row instagram-logo">
+          <div className="row caefe-logo">
             <a href="/">
               <caefeLogo height= "32px" />
             </a>
@@ -44,7 +44,7 @@ export function TopBar() {
             .app-bar-items {
               display: none;
             }
-            .instagram-logo {
+            .caefe-logo {
               margin-right: 8px;
             }
             .search-bar {
