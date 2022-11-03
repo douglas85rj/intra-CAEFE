@@ -6,7 +6,7 @@ import { Feed } from "../components/Feed";
 const items = Array.from({ length: 10 }, (_, index) => ({
   title: `Title ${index}`,
   link: `https://google.com/${index}`,
-  image: "https://unsplash.com/t/3d-renders",
+  image: "https://picsum.photos/200/300",
 }));
 
 export default function Home() {
