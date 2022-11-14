@@ -3,6 +3,7 @@ import "./styles.css";
 import { AppBar } from "./AppBar";
 import { Footer } from "./Footer";
 import { BottomNavigation } from "./BottomNavigation";
+import { ContactForm } from "../components/form";
 
 export interface LayoutProps {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ export function Layout(props: LayoutProps) {
       <main className="content">{props.children}</main>
       <footer>
         <Footer />
+        <ContactForm />
       </footer>
       <nav>
         <BottomNavigation />
