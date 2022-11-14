@@ -13,19 +13,26 @@ export function AppBar() {
           <div className="row logo">
             <a href="/">
               <Logo height="32px" />
+              <h1>Intranet da CAEFE</h1>
             </a>
           </div>
-          {/* <div className="row search-bar">
+          <div className="row search-bar">
             <SearchBar />
           </div>
-          <div className="row app-bar-items">
+          <div className="row-name"> 
+<input className="login" type="text"  placeholder="Seu e-mail"/>
+<input className="senha" type="password"placeholder="Sua senha"/>
+          
+          
+          </div>
+          {/* <div className="row app-bar-items">
             <AppBarItems />
           </div> */}
         </div>
         <style jsx>{`
           .app-bar {
-            background-color: #fff;
-            border-bottom: 1px solid #ccc;
+           
+            
             position: fixed;
             top: 0;
             left: 0;
@@ -51,11 +58,11 @@ export function AppBar() {
               display: none;
             }
 
-            .logo {
+            .row-name  {
               margin-left: 8px;
             }
 
-            .search-bar {
+            .logo{
               flex: 1;
             }
           }

@@ -42,7 +42,7 @@ export function BottomNavigation() {
 
         @media (min-width: 600px) {
           .bottom-navigation {
-            display: none !important; // Má prática, evitar !important
+            display: none !important; 
           }
         }
       `}</style>
