@@ -19,8 +19,8 @@ export default function Home() {
           link="https://google.com"
           name="Núcleo de Tecnologia"
           publishCount={10}
-          role="Analista de sistemas"
-          username="Douglas Souza"
+          role="Informação e transparência"
+          username="Intranet da CAEFE"
         />
       </header>
       <div className="feed-container">
