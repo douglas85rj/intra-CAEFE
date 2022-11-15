@@ -5,15 +5,11 @@ import { Avatar } from "./Avatar";
 export function AppBarItems() {
   return (
     <div className="app-bar-items">
-      <a className="item" href="/">
-        <GrFavorite size="22px" />
-      </a>
-      <a className="item" href="/">
-        <GrHomeRounded size="22px" />
-      </a>
-      <span className="item">
-        <Avatar src="" size="36px" />
-      </span>
+      <a className="item" href="/">Login/Cadastre-se
+        
+        
+</a>
+
       <style jsx>{`
         .app-bar-items {
           display: flex;

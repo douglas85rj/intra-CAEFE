@@ -1,21 +1,20 @@
 import React from "react";
 import { GrFavorite, GrHomeRounded } from "react-icons/gr";
 import { Avatar } from "../components/Avatar";
+import { SearchBar } from "../components/SearchBar";
 
 const bottomNavigationHeight = "48px";
 
 export function BottomNavigation() {
   return (
     <div className="bottom-navigation">
-      <a className="item" href="/">
-        <GrFavorite size="22px" />
-      </a>
-      <a className="item" href="/">
-        <GrHomeRounded size="22px" />
-      </a>
       <span className="item">
-        <Avatar src="https://i.ibb.co/V23YcZQ/logo-caefe.png" size="36px" />
+        <Avatar src="https://i.ibb.co/V23YcZQ/logo-caefe.png" />
       </span>
+      <a className="item" href="/">
+        <SearchBar/>
+      </a>
+     
       <style jsx>{`
         .bottom-navigation {
           display: flex;
@@ -34,6 +33,11 @@ export function BottomNavigation() {
           display: flex;
           align-items: center;
           justify-content: center;
+          
+        }
+        
+
+
         }
 
         :global(body) {

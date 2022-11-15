@@ -8,15 +8,12 @@ export function SearchBar() {
         <MdLogin size="22px" />
       
       </div>
-<div>
-<input type="text"  placeholder="Seu e-mail"/>
-<input type="password"placeholder="Sua senha"/>
-</div>
+
       <style jsx>{`
         .search-bar {
           background-color: #f0f0f0;
           display: flex;
-          padding: 6px 12px;
+          padding: 8px 14px;
           border-radius: 6px;
         }
 

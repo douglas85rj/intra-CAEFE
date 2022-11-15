@@ -18,7 +18,7 @@ export function Avatar({ size = "24px", src }: AvatarProps) {
         img {
           width: 100%;
           height: 100%;
-          border-radius: calc(${size} / 2);
+          border-radius: calc(${size} / 200);
         }
       `}</style>
     </div>
